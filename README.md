@@ -1,0 +1,38 @@
+---
+ms.openlocfilehash: 24aac7ad8709fd70d87f1a2d0d0ceecf99aed2db
+ms.sourcegitcommit: 64947f11d367ffbebbafb700fdfdc20617275f35
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48829855"
+---
+# <a name="microsoft-graph-training-module---create-a-microsoft-graph-json-batch-custom-connector-for-microsoft-power-automate--azure-logic-apps"></a><span data-ttu-id="7896f-101">Módulo de aprendizaje de Microsoft Graph-crear un conector personalizado para lotes JSON de Microsoft Graph para la automatización de Microsoft Power & aplicaciones lógicas de Azure</span><span class="sxs-lookup"><span data-stu-id="7896f-101">Microsoft Graph Training Module - Create a Microsoft Graph JSON Batch Custom Connector for Microsoft Power Automate & Azure Logic Apps</span></span>
+
+<span data-ttu-id="7896f-102">Este módulo le presentará cómo trabajar con la API de REST por lotes de Microsoft Graph para obtener acceso a los datos de Office 365.</span><span class="sxs-lookup"><span data-stu-id="7896f-102">This module will introduce you to working with the Microsoft Graph JSON Batching REST API to access data in Office 365.</span></span> <span data-ttu-id="7896f-103">Aprenderá a crear y configurar un conector personalizado para Microsoft Power automatization, a obtener acceso a la API de lote JSON de Microsoft Graph y a usar el conector personalizado en un flujo para crear un equipo de Microsoft.</span><span class="sxs-lookup"><span data-stu-id="7896f-103">You will learn how to create and configure a custom connector for Microsoft Power Automate, access the the Microsoft Graph JSON Batch API, and use the custom connector in a flow to create a Microsoft Team.</span></span>
+
+## <a name="lab---create-a-microsoft-graph-json-batch-custom-connector-for-microsoft-power-automate--azure-logic-apps"></a><span data-ttu-id="7896f-104">Laboratorio: crear un conector personalizado para lotes JSON de Microsoft Graph para Microsoft Power automatizar & aplicaciones lógicas de Azure</span><span class="sxs-lookup"><span data-stu-id="7896f-104">Lab - Create a Microsoft Graph JSON Batch Custom Connector for Microsoft Power Automate & Azure Logic Apps</span></span>
+
+<span data-ttu-id="7896f-105">En este laboratorio, aprovechará la API de REST por lotes JSON de Microsoft Graph para crear una aplicación de flujo y un conector personalizado.</span><span class="sxs-lookup"><span data-stu-id="7896f-105">In this lab you will leverage the Microsoft Graph JSON Batching REST API to create a Custom Connector and flow application.</span></span>
+
+- [<span data-ttu-id="7896f-106">Tutorial de automatización de energía automatizada de Microsoft Graph</span><span class="sxs-lookup"><span data-stu-id="7896f-106">Power Automate Microsoft Graph tutorial</span></span>](https://docs.microsoft.com/graph/tutorials/powerautomate)
+
+## <a name="contributors"></a><span data-ttu-id="7896f-107">Colaboradores</span><span class="sxs-lookup"><span data-stu-id="7896f-107">Contributors</span></span>
+
+| <span data-ttu-id="7896f-108">Roles</span><span class="sxs-lookup"><span data-stu-id="7896f-108">Roles</span></span>       | <span data-ttu-id="7896f-109">Autores (es)</span><span class="sxs-lookup"><span data-stu-id="7896f-109">Author(s)</span></span>                                            |
+|-------------|------------------------------------------------------|
+| <span data-ttu-id="7896f-110">Manuales de laboratorio</span><span class="sxs-lookup"><span data-stu-id="7896f-110">Lab Manuals</span></span> | <span data-ttu-id="7896f-111">John Liu (Microsoft MVP, SharePointGurus) @johnnliu</span><span class="sxs-lookup"><span data-stu-id="7896f-111">John Liu (Microsoft MVP, SharePointGurus) @johnnliu</span></span>  |
+| <span data-ttu-id="7896f-112">Manuales de laboratorio</span><span class="sxs-lookup"><span data-stu-id="7896f-112">Lab Manuals</span></span> | <span data-ttu-id="7896f-113">@Pskelly de Pedro Skelly (ThreeWill)</span><span class="sxs-lookup"><span data-stu-id="7896f-113">Pete Skelly (ThreeWill) @pskelly</span></span>                     |
+| <span data-ttu-id="7896f-114">Manuales de laboratorio</span><span class="sxs-lookup"><span data-stu-id="7896f-114">Lab Manuals</span></span> | <span data-ttu-id="7896f-115">Ayca Bas (Microsoft) @aycabas</span><span class="sxs-lookup"><span data-stu-id="7896f-115">Ayca Bas (Microsoft) @aycabas</span></span>                        |
+
+## <a name="version-history"></a><span data-ttu-id="7896f-116">Historial de versiones</span><span class="sxs-lookup"><span data-stu-id="7896f-116">Version history</span></span>
+
+| <span data-ttu-id="7896f-117">Versión</span><span class="sxs-lookup"><span data-stu-id="7896f-117">Version</span></span> | <span data-ttu-id="7896f-118">Fecha</span><span class="sxs-lookup"><span data-stu-id="7896f-118">Date</span></span>              | <span data-ttu-id="7896f-119">Comentarios</span><span class="sxs-lookup"><span data-stu-id="7896f-119">Comments</span></span>                                             |
+|---------|-------------------|------------------------------------------------------|
+| <span data-ttu-id="7896f-120">1.3</span><span class="sxs-lookup"><span data-stu-id="7896f-120">1.3</span></span>     | <span data-ttu-id="7896f-121">24 de agosto de 2020</span><span class="sxs-lookup"><span data-stu-id="7896f-121">August 24, 2020</span></span>   | <span data-ttu-id="7896f-122">Se actualizó a Automatic Power</span><span class="sxs-lookup"><span data-stu-id="7896f-122">Updated to Power Automate</span></span>                            |
+| <span data-ttu-id="7896f-123">1.2</span><span class="sxs-lookup"><span data-stu-id="7896f-123">1.2</span></span>     | <span data-ttu-id="7896f-124">27 de noviembre de 2018</span><span class="sxs-lookup"><span data-stu-id="7896f-124">November 27, 2018</span></span> | <span data-ttu-id="7896f-125">Incorporado a docs.microsoft.com/graph</span><span class="sxs-lookup"><span data-stu-id="7896f-125">Onboarded to docs.microsoft.com/graph</span></span>                |
+| <span data-ttu-id="7896f-126">1.1</span><span class="sxs-lookup"><span data-stu-id="7896f-126">1.1</span></span>     | <span data-ttu-id="7896f-127">7 de noviembre de 2018</span><span class="sxs-lookup"><span data-stu-id="7896f-127">November 07, 2018</span></span> | <span data-ttu-id="7896f-128">Se agregó el contenido del paso 6 para llamar a varias operaciones</span><span class="sxs-lookup"><span data-stu-id="7896f-128">Added step 6 content for calling multiple operations</span></span> |
+| <span data-ttu-id="7896f-129">1.0</span><span class="sxs-lookup"><span data-stu-id="7896f-129">1.0</span></span>     | <span data-ttu-id="7896f-130">22 de octubre de 2018</span><span class="sxs-lookup"><span data-stu-id="7896f-130">October 22, 2018</span></span>  | <span data-ttu-id="7896f-131">Agregue las sesiones de producto relacionadas con Microsoft Graph.</span><span class="sxs-lookup"><span data-stu-id="7896f-131">Add Microsoft Graph related product breakouts.</span></span>       |
+
+## <a name="disclaimer"></a><span data-ttu-id="7896f-132">Aviso de declinación de responsabilidades</span><span class="sxs-lookup"><span data-stu-id="7896f-132">Disclaimer</span></span>
+
+<span data-ttu-id="7896f-133">**Este código se proporciona *tal cual* sin garantías de ningún tipo, ya sea expresa o implícita, incluidas las garantías implícitas de idoneidad para un fin determinado, comerciabilidad o ausencia de infracción.**</span><span class="sxs-lookup"><span data-stu-id="7896f-133">**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**</span></span>
